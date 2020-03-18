@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601D787424226CEA0019BBD3 /* PHObjcMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 601D787224226CEA0019BBD3 /* PHObjcMessage.h */; };
+		601D787524226CEA0019BBD3 /* PHObjcMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 601D787324226CEA0019BBD3 /* PHObjcMessage.m */; };
 		607A84022397CDED002CD407 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607A84012397CDED002CD407 /* Tests.swift */; };
 		607A84042397CDED002CD407 /* PHFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60F9FADF2397B8BE00D012E8 /* PHFoundation.framework */; };
 		60F9FAE42397B8BE00D012E8 /* PHFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 60F9FAE22397B8BE00D012E8 /* PHFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		601D787224226CEA0019BBD3 /* PHObjcMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PHObjcMessage.h; sourceTree = "<group>"; };
+		601D787324226CEA0019BBD3 /* PHObjcMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHObjcMessage.m; sourceTree = "<group>"; };
 		607A83FF2397CDED002CD407 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607A84012397CDED002CD407 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		607A84032397CDED002CD407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				60F9FAE22397B8BE00D012E8 /* PHFoundation.h */,
+				601D787224226CEA0019BBD3 /* PHObjcMessage.h */,
+				601D787324226CEA0019BBD3 /* PHObjcMessage.m */,
 				60F9FB782397BB1300D012E8 /* PHFoundation.swift */,
 				60F9FB7A2397BB3E00D012E8 /* FoundationDSL.swift */,
 				60F9FB7C2397BC6600D012E8 /* NSObjectAssociate.swift */,
@@ -120,6 +126,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601D787424226CEA0019BBD3 /* PHObjcMessage.h in Headers */,
 				60F9FAE42397B8BE00D012E8 /* PHFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,7 +177,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Panghu Lee";
 				TargetAttributes = {
 					607A83FE2397CDED002CD407 = {
@@ -178,7 +185,7 @@
 					};
 					60F9FADE2397B8BE00D012E8 = {
 						CreatedOnToolsVersion = 11.2.1;
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -232,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60F9FB7B2397BB3E00D012E8 /* FoundationDSL.swift in Sources */,
+				601D787524226CEA0019BBD3 /* PHObjcMessage.m in Sources */,
 				60F9FB792397BB1300D012E8 /* PHFoundation.swift in Sources */,
 				60F9FB7D2397BC6600D012E8 /* NSObjectAssociate.swift in Sources */,
 			);
@@ -406,7 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JLXC3L42Z2;
@@ -436,7 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = JLXC3L42Z2;
